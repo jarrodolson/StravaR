@@ -1,0 +1,15 @@
+Package: StravaR
+Type: Package
+Title: Facilitates R Analysis of Strava Data (from API)
+Version: 0.0.0.9000
+Date: 2016-05-22
+Authors@R: person("Jarrod", "Olson", email="jarrod.olson@outlook.com",
+                  role = c("aut", "cre"))
+Maintainer: Jarrod Olson <jarrod.olson@outlook.com>
+Description: This packages provides simplified access to the Strava API and
+    converts the JSON outputs into data frames to facilitate analysis.
+License: GPL-3
+LazyData: TRUE
+Imports:
+    httr
+RoxygenNote: 5.0.1
